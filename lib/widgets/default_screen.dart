@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:info_session_fall_2020/constants.dart';
 
 class DefaultScreen extends StatelessWidget {
-  final List<Widget> children;
+  final Widget child;
   final MainAxisAlignment mainAxisAlignment;
   final CrossAxisAlignment crossAxisAlignment;
 
   const DefaultScreen({
-    this.children,
+    this.child,
     this.mainAxisAlignment,
     this.crossAxisAlignment,
   });
@@ -16,6 +16,7 @@ class DefaultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
         crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.center,
@@ -36,9 +37,12 @@ class DefaultScreen extends StatelessWidget {
                 _ColoredContainer(
                   color: kGoogleRed,
                 ),
-              ]..addAll(children ?? []),
+              ],
             ),
           ),
+          Expanded(
+            child: child,
+          )
         ],
       ),
     );
