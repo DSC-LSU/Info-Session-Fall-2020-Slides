@@ -12,7 +12,23 @@ class Page1 extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [MemberTile(), MemberTile(), MemberTile()],
+        children: [
+          MemberTile(
+            imageAssetPath: kImages['rohan'],
+            title: 'Rohan Kadkol',
+            subtitle: 'VP & Flutter Lead\n"computer Science and improv"',
+          ),
+          MemberTile(
+            imageAssetPath: kImages['ian'],
+            title: 'Ian Nezat',
+            subtitle: 'Core Team\n"He stopped going to the gym."',
+          ),
+          MemberTile(
+            imageAssetPath: kImages['haron'],
+            title: 'Haron Temam',
+            subtitle: 'Core Team\n"I really like turtles 🐢"',
+          )
+        ],
       ),
     );
   }

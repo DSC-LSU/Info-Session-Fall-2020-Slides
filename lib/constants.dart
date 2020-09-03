@@ -19,5 +19,9 @@ const TextStyle kSubHeadline = TextStyle(fontSize: 2 / 3 * kHeadlineSize);
 // const TextStyle kTitle = TextSty
 
 const Map<String, String> kImages = {
-  'rohan': 'http://www.rohankadkol.com/rohan_kadkol.jpg'
+  'rohan': 'assets/images/rohan_kadkol.jpg',
+  'ian':
+      'assets/images/ian_nezat.png',
+  'haron':
+      'assets/images/haron_temam.jpg'
 };
