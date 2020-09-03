@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:info_session_fall_2020/screens/flutter_description_3/flutter_description.dart';
 import 'package:info_session_fall_2020/widgets/default_screen.dart';
 
 class Page2 extends StatelessWidget {
@@ -8,6 +8,7 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultScreen(
+      onTap: () => Navigator.pushNamed(context, FlutterDescription.routeName),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -33,8 +34,8 @@ class Page2 extends StatelessWidget {
 
 class _GifImage extends StatelessWidget {
   final String assetImagePath;
-  double height;
-  double width;
+  final double height;
+  final double width;
 
   _GifImage({this.assetImagePath, this.height, this.width});
 
