@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:info_session_fall_2020/screens.dart/home_screen.dart';
+import 'package:info_session_fall_2020/screens/home_screen/home_screen.dart';
+import 'package:info_session_fall_2020/screens/page_1/page_1.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       routes: {
-        HomeScreen.routeName: (context) => HomeScreen()
+        HomeScreen.routeName: (context) => HomeScreen(),
+        Page1.routeName: (context) => Page1()
       },
     );
   }

@@ -6,44 +6,48 @@ class DefaultScreen extends StatelessWidget {
   final Widget child;
   final MainAxisAlignment mainAxisAlignment;
   final CrossAxisAlignment crossAxisAlignment;
+  final Function onTap;
 
-  const DefaultScreen({
-    this.child,
-    this.mainAxisAlignment,
-    this.crossAxisAlignment,
-  });
+  const DefaultScreen(
+      {@required this.child,
+      this.mainAxisAlignment,
+      this.crossAxisAlignment,
+      this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
-        crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.center,
-        children: [
-          Container(
-            height: 35.0,
-            child: Row(
-              children: [
-                _ColoredContainer(
-                  color: kGoogleYellow,
-                ),
-                _ColoredContainer(
-                  color: kGoogleGreen,
-                ),
-                _ColoredContainer(
-                  color: kGoogleBlue,
-                ),
-                _ColoredContainer(
-                  color: kGoogleRed,
-                ),
-              ],
+      body: GestureDetector(
+        onTap: onTap,
+        child: Column(
+          mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
+          crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.center,
+          children: [
+            Container(
+              height: 35.0,
+              child: Row(
+                children: [
+                  _ColoredContainer(
+                    color: kGoogleYellow,
+                  ),
+                  _ColoredContainer(
+                    color: kGoogleGreen,
+                  ),
+                  _ColoredContainer(
+                    color: kGoogleBlue,
+                  ),
+                  _ColoredContainer(
+                    color: kGoogleRed,
+                  ),
+                ],
+              ),
             ),
-          ),
-          Expanded(
-            child: child,
-          )
-        ],
+            Expanded(
+              child: child,
+            )
+          ],
+        ),
       ),
     );
   }
