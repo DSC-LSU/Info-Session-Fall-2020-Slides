@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-  
+
 const Curve kDefaultCurve = Curves.decelerate;
 const Duration kDefaultDuration = Duration(seconds: 2);
 
@@ -19,12 +19,15 @@ const Color kSecondaryText = Color(0xFF747474);
 const TextStyle kHeadline =
     TextStyle(fontSize: kHeadlineSize, fontWeight: FontWeight.bold);
 const TextStyle kSubHeadline = TextStyle(fontSize: 2 / 3 * kHeadlineSize);
+const TextStyle kSubSubHeadline =
+    TextStyle(fontSize: 2 / 3 * 2 / 3 * kHeadlineSize);
+const TextStyle kSubSubHeadlineOverline =
+    TextStyle(fontSize: 2 / 3 * 2 / 3 * 2 / 3 * kHeadlineSize);
+
 // const TextStyle kTitle = TextSty
 
 const Map<String, String> kImages = {
   'rohan': 'assets/images/rohan_kadkol.jpg',
-  'ian':
-      'assets/images/ian_nezat.png',
-  'haron':
-      'assets/images/haron_temam.jpg'
+  'ian': 'assets/images/ian_nezat.png',
+  'haron': 'assets/images/haron_temam.jpg'
 };

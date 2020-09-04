@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:info_session_fall_2020/constants.dart';
 import 'package:info_session_fall_2020/screens/flutter_description_3/flutter_description.dart';
+import 'package:info_session_fall_2020/screens/series_schedule_5/series_schedule.dart';
 import 'package:info_session_fall_2020/widgets/default_screen.dart';
 
 class FlutterDescription1 extends StatefulWidget {
@@ -67,7 +68,7 @@ class _FlutterDescription1State extends State<FlutterDescription1>
         break;
       case 4:
         print(4);
-        // Navigator.pushNamed(context, routeName);
+        Navigator.pushNamed(context, SeriesSchedule.routeName);
     }
     setState(() {});
   }
