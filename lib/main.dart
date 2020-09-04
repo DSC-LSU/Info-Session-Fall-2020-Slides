@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:info_session_fall_2020/screens/flutter_description_3/flutter_description.dart';
+import 'package:info_session_fall_2020/screens/flutter_description_4/flutter_description_1.dart';
 import 'package:info_session_fall_2020/screens/home_screen/home_screen.dart';
 import 'package:info_session_fall_2020/screens/page_1/page_1.dart';
 import 'package:info_session_fall_2020/screens/page_2/page_2.dart';
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         Page1.routeName: (context) => Page1(),
         Page2.routeName: (context) => Page2(),
         FlutterDescription.routeName: (context) => FlutterDescription(),
+        FlutterDescription1.routeName: (context) => FlutterDescription1(),
       },
     );
   }

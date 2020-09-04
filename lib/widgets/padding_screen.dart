@@ -19,7 +19,7 @@ class PaddingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultScreen(
-      onTap: onTap,
+      onTap: () => onTap,
       mainAxisAlignment: mainAxisAlignment,
       crossAxisAlignment: crossAxisAlignment,
       child: Padding(

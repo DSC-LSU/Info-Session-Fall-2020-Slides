@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+  
+const Curve kDefaultCurve = Curves.decelerate;
+const Duration kDefaultDuration = Duration(seconds: 2);
 
 const double kDefaultMargin = 20.0;
 const double kDefaultBorderRadius = 20.0;
