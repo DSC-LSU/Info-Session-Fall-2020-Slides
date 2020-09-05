@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: kHeadlineSize / 2),
               Text(
-                '"10 weeks. Flutter beginner to expert"',
+                '"8 weeks. Flutter beginner to expert"',
                 style: kSubHeadline,
               ),
             ],

@@ -16,12 +16,12 @@ class FlutterDescription1 extends StatefulWidget {
 class _FlutterDescription1State extends State<FlutterDescription1>
     with AfterLayoutMixin<FlutterDescription1> {
   int currentState = 0;
-  double height = 878.0;
+  double height = 934.0;
   double width = 1920.0;
 
   List<Dimension> heightsWidths = [
-    Dimension(height: 878.0, width: 1920.0),
-    Dimension(height: 878.0, width: 0.0),
+    Dimension(height: 934.0, width: 1920.0),
+    Dimension(height: 934.0, width: 0.0),
     Dimension(height: 0.0, width: 1920),
     Dimension(height: 0.0, width: 0.0),
   ];
@@ -75,7 +75,7 @@ class _FlutterDescription1State extends State<FlutterDescription1>
 
   @override
   void afterFirstLayout(BuildContext context) {
-    height = MediaQuery.of(context).size.height - 35.0 - 56.0;
+    height = MediaQuery.of(context).size.height - 35.0;
     width = MediaQuery.of(context).size.width;
 
     setState(() {

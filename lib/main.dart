@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:info_session_fall_2020/screens/demo_app_screen/demo_app_screen.dart';
 import 'package:info_session_fall_2020/screens/flutter_description_3/flutter_description.dart';
 import 'package:info_session_fall_2020/screens/flutter_description_4/flutter_description_1.dart';
 import 'package:info_session_fall_2020/screens/home_screen/home_screen.dart';
@@ -44,6 +45,7 @@ class MyApp extends StatelessWidget {
         FlutterDescription.routeName: (context) => FlutterDescription(),
         FlutterDescription1.routeName: (context) => FlutterDescription1(),
         SeriesSchedule.routeName: (context) => SeriesSchedule(),
+        DemoAppScreen.routeName: (context) => DemoAppScreen()
       },
     );
   }

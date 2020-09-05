@@ -1,5 +1,6 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
+import 'package:info_session_fall_2020/screens/demo_app_screen/demo_app_screen.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
@@ -59,7 +60,20 @@ class _SeriesScheduleState extends State<SeriesSchedule>
             child: _DetailsView(
               meeting: clickedMeeting,
             ),
-          )
+          ),
+          // Column(
+          //   children: [
+          //     GestureDetector(
+          //       onTap: () =>
+          //           Navigator.pushNamed(context, DemoAppScreen.routeName),
+          //       child: Container(
+          //         width: 30.0,
+          //         height: 30.0,
+          //         color: Colors.red,
+          //       ),
+          //     ),
+          //   ],
+          // )
         ],
       ),
     );

@@ -23,12 +23,12 @@ class Page1 extends StatelessWidget {
           MemberTile(
             imageAssetPath: kImages['ian'],
             title: 'Ian Nezat',
-            subtitle: 'Core Team\n"He stopped going to the gym."',
+            subtitle: 'Solutions Challenge Lead\n"He stopped going to the gym."',
           ),
           MemberTile(
             imageAssetPath: kImages['haron'],
             title: 'Haron Temam',
-            subtitle: 'Core Team\n"I really like turtles 🐢"',
+            subtitle: 'Secretary\n"I really like turtles 🐢"',
           )
         ],
       ),

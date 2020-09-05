@@ -31,6 +31,8 @@ dependencies:
   after_layout: ^1.0.7+2
   syncfusion_flutter_calendar: ^18.2.56
   intl: ^0.16.1
+  prefab_app:
+    path: packages/prefab_app
 
 dev_dependencies:
   flutter_test:
