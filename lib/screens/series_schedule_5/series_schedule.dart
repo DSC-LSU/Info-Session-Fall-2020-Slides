@@ -49,7 +49,7 @@ class _SeriesScheduleState extends State<SeriesSchedule>
                 setState(() {});
                 print(clickedMeeting);
               },
-              initialSelectedDate: DateTime(2020, 9, 18),
+              initialSelectedDate: DateTime(2020, 9, 24),
             ),
           ),
           const SizedBox(
@@ -84,8 +84,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 1,
           eventName: 'Hello World App',
-          from: DateTime(2020, 9, 18, 19, 0),
-          to: DateTime(2020, 9, 18, 20, 30),
+          from: DateTime(2020, 9, 24, 19, 0),
+          to: DateTime(2020, 9, 24, 20, 30),
           background: kGoogleBlue,
           isAllDay: false,
           description: 'IDE Setup, Building our first app',
@@ -94,8 +94,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 2,
           eventName: 'Favorite Celebrity App & Favorite Celebrities App',
-          from: DateTime(2020, 9, 25, 19, 0),
-          to: DateTime(2020, 9, 25, 20, 30),
+          from: DateTime(2020, 10, 1, 19, 0),
+          to: DateTime(2020, 10, 1, 20, 30),
           background: kGoogleGreen,
           isAllDay: false,
           description:
@@ -105,8 +105,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
         session: 3,
         eventName: 'Love Calculator',
-        from: DateTime(2020, 10, 2, 19, 0),
-        to: DateTime(2020, 10, 2, 20, 30),
+        from: DateTime(2020, 10, 8, 19, 0),
+        to: DateTime(2020, 10, 8, 20, 30),
         background: kGoogleYellow,
         isAllDay: false,
         description: 'Enter two names. See if they\'re right for each other',
@@ -115,8 +115,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 4,
           eventName: 'Dog Quotes',
-          from: DateTime(2020, 10, 23, 19, 0),
-          to: DateTime(2020, 10, 23, 20, 30),
+          from: DateTime(2020, 10, 29, 19, 0),
+          to: DateTime(2020, 10, 29, 20, 30),
           background: kGoogleRed,
           isAllDay: false,
           description:
@@ -126,8 +126,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 5,
           eventName: 'Currency Exchanger',
-          from: DateTime(2020, 10, 30, 19, 0),
-          to: DateTime(2020, 10, 30, 20, 30),
+          from: DateTime(2020, 11, 5, 19, 0),
+          to: DateTime(2020, 11, 5, 20, 30),
           background: kGoogleGreen,
           isAllDay: false,
           description: 'Displays live exchange rates',
@@ -136,8 +136,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 6,
           eventName: 'What\'s the weather?',
-          from: DateTime(2020, 11, 6, 19, 0),
-          to: DateTime(2020, 11, 6, 20, 30),
+          from: DateTime(2020, 11, 12, 19, 0),
+          to: DateTime(2020, 11, 12, 20, 30),
           background: kGoogleBlue,
           isAllDay: false,
           description: 'Live weather for the list of places',
@@ -146,8 +146,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 7,
           eventName: 'Hey There (Chat App)',
-          from: DateTime(2020, 11, 13, 19, 0),
-          to: DateTime(2020, 11, 13, 20, 30),
+          from: DateTime(2020, 11, 19, 19, 0),
+          to: DateTime(2020, 11, 19, 20, 30),
           background: kGoogleYellow,
           isAllDay: false,
           description:
@@ -156,8 +156,8 @@ class _SeriesScheduleState extends State<SeriesSchedule>
       Meeting(
           session: 8,
           eventName: 'MindReader (Face Recognition App)',
-          from: DateTime(2020, 11, 20, 19, 0),
-          to: DateTime(2020, 11, 20, 20, 30),
+          from: DateTime(2020, 11, 26, 19, 0),
+          to: DateTime(2020, 11, 26, 20, 30),
           background: kGoogleRed,
           isAllDay: false,
           description:
