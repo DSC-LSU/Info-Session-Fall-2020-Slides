@@ -1,6 +1,6 @@
 # Flutter Presentation at Fall 2020 DSC LSU Info Session
 
-This is the presentation I used in for the Fall 2020 DSC LSU Info Session.
+This is the presentation [Rohan](https://github.com/rohan-kadkol) used in for the Fall 2020 DSC LSU Info Session.
 
 [See the full video on YouTube](https://redirect.dsclsu.com/youtube)
 
